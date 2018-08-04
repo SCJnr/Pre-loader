@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>Pre-loader</title>
+<link rel="stylesheet" href="new.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+<div class="loader">
+<h1>0</h1>
+<script type="text/javascript">
+$(document).ready(function(){
+    var counter=0;
+    var c=0;
+    var i=setInterval(function(){
+     
+     $(".loader h1").html(c);
+     $(".loader").css("width",c + "%");
+     counter++;
+     c++;
+     if(counter==101){   
+       clearInterval(i);
+    }
+    },20)
+});
+
+</script>
+</div>
+</body>
+</html>

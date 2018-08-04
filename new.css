@@ -1,0 +1,24 @@
+body
+{
+  margin:0px;
+  padding:0px;
+  background-color:#352D2A;  
+  height:100vh;
+  width:100vw;
+  overflow:hidden;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loader{
+    background-color: grey;
+    width:100%;
+    height:100vh;
+}
+.loader h1
+{ position: fixed;
+  top: 50%;
+  left: 50%;  
+  font-size: 250px;
+  text-emphasis: bolder;
+  color:#000;
+  margin-top:-10px;
+  transform: translate(-50%,-50%);
+}
